@@ -1,5 +1,6 @@
 # intern-cv-Hans
 
+# Task 1
 # Personal Portfolio – Task 1
 
 A simple personal portfolio webpage created using **HTML**.  
@@ -22,3 +23,13 @@ Created as a beginner web development task to practice HTML structure and semant
 **Hans Timothy Z. Medina**  
 Web Developer / QA Intern  
 Far Eastern University Alabang
+
+# Task 2
+
+## Updates from HTML File
+- Changed the Title it from "Task 1" to "Task 1 & 2"
+- added <nav> to some list 
+
+## Created design for HTML
+- Added style.css 
+- improved the looks of the html file
