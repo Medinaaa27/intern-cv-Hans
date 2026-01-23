@@ -7,11 +7,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #E9E6DB;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main{
     max-width: 800px;
     margin: 0 auto;
+    flex: 1;
+    width: 100%;
 }
 
 header{
@@ -21,7 +26,8 @@ header{
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 1
+    5px;
 }
 
 section{
@@ -81,3 +87,62 @@ footer{
     background-color: transparent;
     margin-left: 40px;
 }
+
+/* Dark Mode */
+
+.dark-mode {
+  background-color: #222831;
+  color: white;
+}
+
+.dark-mode footer {
+  background-color: #C0C0C0;
+  color: black;
+  border-top: 2px solid black;
+}
+
+.dark-mode footer a {
+  color: blue;
+}
+
+.dark-mode .footerstyle li {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+.darkmode{
+    background-color: #ddd8d8;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 80px;
+    margin: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hide Button */
+.hiding {
+  background-color: #C0C0C0;
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 8px;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hiding:hover {
+  background-color: #A9A9A9;
+}
+

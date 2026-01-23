@@ -33,3 +33,11 @@ Far Eastern University Alabang
 ## Created design for HTML
 - Added style.css 
 - improved the looks of the html file
+- add design to header, nav, section
+
+# Task 3
+
+## Added JavaScript functions
+- Added toggle button for hiding and showing sections
+- Added a dark mode button
+
